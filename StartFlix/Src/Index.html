@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartFlix</title>
+    <link rel="stylesheet" href="Startflix.css">
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <aside class="background--banner">
+        <video muted autoplay loop poster="Imagenes/Megalodón 2.mp4">
+            <source src="Imagenes/Megalodón 2.mp4" type="video/mp4">
+            
+        </video>
+        <div class="banner">
+            <div class="menu">
+                <nav>
+                    <ul class="navegacion">
+                        <li class="logo"><a href="#"><img src="Imagenes/LogoTrey.png" alt="LogoTrey"></a></li>
+                      
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Peliculas Recomendadas</a></li>
+                        <li><a href="#">Peliculas Populares</a></li>
+                      
+                    
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="navegacion navegacion--derecha">
+                     
+                            <div class="buscador-container">
+                                <input type="text" id="inputBuscador" class="buscador" placeholder="Buscar...">
+                                <button id="btnBuscar" class="btn-buscar"><img src="Imagenes/lupa.png" alt="Lupa" id="lupa"></button>
+                            </div>
+                       
+                       
+                    </ul>
+                </nav>
+            </div>
+            <div class="imagotipo">
+                <div class="imagotipo--imagen">
+                    <img src="Imagenes/MEGALODON.png" alt="Imagotipo">
+                </div>
+                <div class="imagotipo--info">
+                    <p ><a style="color: black;" href="https://www.youtube.com/watch?v=JwRHJfwFI6o&t=79s&ab_channel=TrailersInSpanish">⏵Play</a>
+                  
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+    <section class="CatalogoRecomendadas">
+      
+        <div class="PeliculasRecomendadas container">
+<div class="contenedor-titulo-controles">
+    <h3 >Películas Recomendadas</h3>
+    <div class="indicadores"></div>
+</div>
+
+<div class="contenedor-principal">
+    <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+<div class="contenedor-carousel">
+    <div class="carousel">
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/1.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/2.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/3.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/4.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/5.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/6.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/7.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/1.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/2.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/3.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/1.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/2.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/3.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/4.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/5.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/6.png" alt=""></a>
+        </div>
+        <div class="pelicula">
+            <a href="#"><img src="Imagenes/7.png" alt=""></a>
+        </div>
+       
+    </div>
+</div>
+
+
+	<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+</div>
+
+
+        </div>
+
+</section>
+
+    <h2>#Peliculas y series</h2>
+  <div id="movies"></div>
+
+  
+<div id="Buttons">    
+    <button class="Hover" id="previousButton">Anterior</button>
+    <button class="Hover" id="nextButton">Siguiente</button>
+</div>
+
+  <script src="Startflix.js"></script>
+</body>
+</html>
